@@ -1,0 +1,153 @@
+    li,  
+    .DQ {
+        color:#17D59F;
+    }
+    
+    .DQ-1 {
+        color:#d51730;
+    }
+
+    .DQ-10 {
+        color: gold;
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        text-align:center;
+    }
+
+    #Summary {
+        font-weight:bold;
+        color:#d51730;
+    }
+
+    details #Summary::-webkit-details-marker {
+      color: #d51730;
+    }
+
+    summary {
+        color:#00D9ff;
+        outline-color: white;
+        margin-bottom: 20px;
+    }
+
+    
+
+    html {
+        background-color:#000000;
+        font-size: 1.2rem;
+    }
+
+    footer {
+            font-style:italic;
+            text-decoration:none;
+    }
+
+    q {
+       font-weight:bold;
+       text-decoration:underline;
+    }
+
+    details {
+             line-height: 1.3rem;
+    }
+
+    li {
+        line-height: 1.5rem;
+    }
+
+    #important {
+        font-weight: bold;
+        color:#177DD5;
+    }
+
+    .DQ-4 {
+           line-height: 1.5rem;
+    }
+
+    a {
+        color:#17D59F;
+    }
+    
+    a:hover {
+        color:#d51730;
+    }
+
+    #Link:hover {
+        color:#17D59F;
+    }
+
+    #dq {
+         color:#d51730;
+         margin: 0;
+    }
+
+    header {
+        text-align:center;
+    }
+    
+    img {
+         margin: 24.1705px 20px;
+         width: auto;
+         max-width:40vw;
+         height:auto;
+    }
+  
+   @media screen and (max-width: 800px) {
+    html{
+      font-size:1.1rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    html{
+      font-size:1rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    img {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    html{
+      font-size: 0.9rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    html{
+      font-size: 0.8rem;
+    }
+  }
+
+  div {
+      font-family: sans-serif;
+    }
+
+  summary {
+      font-family: sans-serif;
+    }
+
+  li {
+      font-family: sans-serif;
+    }
+
+  h3 {
+      font-family: sans-serif;
+  }
+
+  footer {
+      font-family: sans-serif;
+  }
+
+  hr {
+    border-color: #0073FF;
+  }
+
+    /* The style tag is used if you put your css dirlectly in your html. 
+   it is better though to have another css document and to use the link 
+   tag directly to it. So you can use the same css style in multiple 
+   documents and to make it eaiser to understand.*/
